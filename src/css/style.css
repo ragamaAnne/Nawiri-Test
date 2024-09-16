@@ -1,10 +1,103 @@
-.navbar {
-    background-color: #000;
-    color: #fff;
-  }
-  .register-form input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-  }
+/* Theme Colors */
+:root {
+  --primary-color: #0073e6; /* Calming blue */
+  --secondary-color: #3ab795; /* Healthcare green */
+  --accent-color: #ffcc00; /* Accent for highlighting */
+  --background-color: #f8f9fa; /* Light background */
+  --text-color: #333333; /* Dark text */
+}
+
+/* General Reset */
+* {
   
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Navbar */
+.navbar {
+  list-style-type: none;   /* Remove bullets */
+  margin: 0;
+  height: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;        /* Clear floats */
+  background-color: #333;
+    /* Navbar background color */
+}
+
+/* Styling each nav item */
+.navbar li {
+  float: left;             /* Align each list item horizontally */
+  padding: 14px 20px;
+}
+
+/* Styling the links */
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+/* Hover effect on links */
+.navbar li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Buttons */
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Forms */
+input, select, textarea {
+  border: 1px solid var(--secondary-color);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+  padding: 14px 20px;
+}
+
+
+.about-section {
+  padding-top: 100px;  
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+  width: 70%;
+  margin-left: 15%;
+}
+
