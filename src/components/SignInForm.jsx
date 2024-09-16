@@ -1,9 +1,8 @@
-// components/Registration.js
+// components/SignIn.js
 import React, { useState } from 'react';
 
-const Registration = () => {
+const SignIn = () => {
   const [formData, setFormData] = useState({
-    username: '',
     email: '',
     password: '',
   });
@@ -22,19 +21,9 @@ const Registration = () => {
   };
 
   return (
-    <div className="registration-form">
-      <h2>Register</h2>
+    <div className="signin-form">
+      <h2>Sign In</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label>Username:</label>
-          <input
-            type="text"
-            name="username"
-            value={formData.username}
-            onChange={handleChange}
-            required
-          />
-        </div>
         <div>
           <label>Email:</label>
           <input
@@ -55,11 +44,10 @@ const Registration = () => {
             required
           />
         </div>
-        <button type="submit">Register</button>
+        <button type="submit">Sign In</button>
       </form>
     </div>
   );
 };
 
-export default Registration;
-
+export default SignIn;
