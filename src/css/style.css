@@ -101,3 +101,82 @@ footer a {
   margin-left: 15%;
 }
 
+.patients-page {
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.sponsor-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.providers-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.providers-page section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
